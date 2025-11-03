@@ -24,7 +24,7 @@ const Header: React.FC = () => {
     <header className={`sticky top-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white/80 backdrop-blur-lg shadow-md' : 'bg-transparent'}`}>
       <div className="container mx-auto flex items-center justify-between p-4">
         <a href="#" className="text-2xl font-bold text-slate-800 transition-colors hover:text-slate-900">
-          SNDS
+          Sahithya
         </a>
         <nav className="hidden md:flex space-x-8">
           {NAV_LINKS.map((link) => (
