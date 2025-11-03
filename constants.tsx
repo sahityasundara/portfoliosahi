@@ -13,7 +13,7 @@ export const PROJECTS = [
   {
     title: 'Ransomware Detection using ML',
     description: 'An ML-based project to detect whether a file has ransomware or is safe by using the file attributes.',
-    image: 'ransomwareimg.png',
+    image: '/ransomwareimg.png',
     tags: ['Machine Learning', 'Python', 'Data Analysis'],
     liveUrl: 'https://miniproject-3-i.onrender.com/',
     githubUrl: 'https://github.com/Batch-C8/Ransomware_Detection_using_ML',
@@ -21,7 +21,7 @@ export const PROJECTS = [
   {
     title: 'Treasure Of Ideas',
     description: 'Treasure of Ideas is an AI-powered, full-stack MERN platform where developers and students can share, discover, and collaborate on project ideas. It features a secure RESTful API, a high-performance React frontend, and a live AI generator to create unique concepts on demand.',
-    image: 'treasureofideasimg.png',
+    image: '/treasureofideasimg.png',
     tags: [ 'React.js', 'Node.js', 'Express.js', 'MongoDB Atlas', 'JWT', 'Git'],
     liveUrl: 'https://treasure-of-ideas.netlify.app/',
     githubUrl: 'https://github.com/sahityasundara/Treasure-of-Ideas-deploy.git',
@@ -29,7 +29,7 @@ export const PROJECTS = [
   {
     title: 'Stock Portfolio Tracker',
     description: 'A modern stock portfolio tracker built with React, TypeScript, and Tailwind CSS. This responsive app allows users to manage their investments with live data and interactive charts. Its key feature is an integrated AI assistant, powered by Google Gemini, that provides insightful, on-demand analysis for any stock in the portfolio.',
-    image: 'stockimg.png',
+    image: '/stockimg.png',
     tags: ['React', 'TypeScript', 'Tailwind CSS', 'Recharts'],
     liveUrl: 'https://stocks-portfolio-tracker.netlify.app/',
     githubUrl: 'https://github.com/sahityasundara/stock-portfolio-tracker.git',
@@ -37,7 +37,7 @@ export const PROJECTS = [
   {
     title: 'Info Hub',
     description: 'A MERN-based platform for students to stay updated on college events, programs, club selections, and campus activities.',
-    image: 'infohubimg1.jpg',
+    image: '/infohubimg1.jpg',
     tags: [ 'React', 'Node.js','Express.js', 'MongoDB'],
     liveUrl: '#',
     githubUrl: 'https://github.com/sahityasundara/infohub',
@@ -45,7 +45,7 @@ export const PROJECTS = [
     {
     title: 'DORMEASE',
     description: 'A web app helpful for university hostel students to book rooms, view gym/mess/laundry timings, and submit complaints or feedback.',
-    image: 'dormeaseimg.jpg',
+    image: '/dormeaseimg.jpg',
     tags: ['Web App', 'Frontend', 'Backend'],
     liveUrl: 'https://sahityasundara.github.io/DormEase-Project/py4.html',
     githubUrl: 'https://github.com/sahityasundara/DormEase-Project.git',

@@ -13,7 +13,7 @@ const About: React.FC = () => {
           <div className="relative group w-48 h-48 md:w-64 md:h-64">
             <div className="absolute -inset-1.5 bg-gradient-to-r from-slate-400 to-slate-800 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-pulse group-hover:animate-none"></div>
             <img 
-              src="profileimg.jpeg" 
+              src="/profileimg.jpeg" 
               alt="Naga Durga Sahithya Sundara" 
               className="relative w-full h-full rounded-full object-cover shadow-xl border-4 border-white"
             />

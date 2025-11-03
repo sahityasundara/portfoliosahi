@@ -27,7 +27,7 @@ const Hero: React.FC = () => {
             View My Work
           </a>
           <a
-            href="varahiammanproall.pdf"
+            href="/varahiammanproall.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-transparent border-2 border-slate-500 text-slate-700 font-bold py-3 px-8 rounded-full text-lg hover:bg-slate-700 hover:text-white hover:border-slate-700 transition-all duration-300 transform hover:scale-105"
