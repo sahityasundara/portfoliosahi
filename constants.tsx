@@ -11,6 +11,22 @@ export const NAV_LINKS = [
 
 export const PROJECTS = [
     {
+    title: 'ResumeIQ',
+    description: 'Built a privacy-first, high-performance React dashboard powered by Gemini 2.5 Flash that performs secure in-browser resume matching and delivers instant fit scores with AI-driven interview coaching.',
+    image: '/airesumephoto.jpg',
+    tags: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'Google Gemini API'],
+    liveUrl: 'https://aipoweredresumechecker.netlify.app/',
+    githubUrl: 'https://github.com/sahityasundara/Ai-Resume-Checker',
+  },
+   {
+    title: 'Treasure Of Ideas',
+    description: 'Treasure of Ideas is an AI-powered, full-stack MERN platform where developers and students can share, discover, and collaborate on project ideas. It features a secure RESTful API, a high-performance React frontend, and a live AI generator to create unique concepts on demand.',
+    image: '/treasureofideasimg.png',
+    tags: [ 'React.js', 'Node.js', 'Express.js', 'MongoDB Atlas', 'JWT', 'Git'],
+    liveUrl: 'https://treasure-of-ideas.netlify.app/',
+    githubUrl: 'https://github.com/sahityasundara/Treasure-of-Ideas-deploy.git',
+  },
+    {
     title: 'Stock Portfolio Tracker',
     description: 'A modern stock portfolio tracker built with React, TypeScript, and Tailwind CSS. This responsive app allows users to manage their investments with live data and interactive charts. Its key feature is an integrated AI assistant, powered by Google Gemini, that provides insightful, on-demand analysis for any stock in the portfolio.',
     image: '/stockimg.png',
@@ -19,14 +35,7 @@ export const PROJECTS = [
     githubUrl: 'https://github.com/sahityasundara/stock-portfolio-tracker.git',
   },
   
-  {
-    title: 'Treasure Of Ideas',
-    description: 'Treasure of Ideas is an AI-powered, full-stack MERN platform where developers and students can share, discover, and collaborate on project ideas. It features a secure RESTful API, a high-performance React frontend, and a live AI generator to create unique concepts on demand.',
-    image: '/treasureofideasimg.png',
-    tags: [ 'React.js', 'Node.js', 'Express.js', 'MongoDB Atlas', 'JWT', 'Git'],
-    liveUrl: 'https://treasure-of-ideas.netlify.app/',
-    githubUrl: 'https://github.com/sahityasundara/Treasure-of-Ideas-deploy.git',
-  },
+ 
   {
     title: 'Ransomware Detection using ML',
     description: 'An ML-based project to detect whether a file has ransomware or is safe by using the file attributes.',
