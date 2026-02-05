@@ -12,7 +12,7 @@ export const NAV_LINKS = [
 export const PROJECTS = [
     {
     title: 'ResumeIQ',
-    description: 'Built a privacy-first, high-performance React dashboard powered by Gemini 2.5 Flash that performs secure in-browser resume matching and delivers instant fit scores with AI-driven interview coaching.',
+    description: 'Built a privacy-first, high-performance React dashboard that matches resumes with job descriptions entirely in-browser, instantly delivering fit scores along with AI-driven strengths and weaknesses analysis.',
     image: '/airesumephoto.jpg',
     tags: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'Google Gemini API'],
     liveUrl: 'https://aipoweredresumechecker.netlify.app/',
@@ -37,7 +37,7 @@ export const PROJECTS = [
   
  
   {
-    title: 'Ransomware Detection using ML',
+    title: 'ThreatGuard',
     description: 'An ML-based project to detect whether a file has ransomware or is safe by using the file attributes.',
     image: '/ransomwareimg.png',
     tags: ['Python', 'Scikit-learn', 'Pandas', 'NumPy', 'Matplotlib', 'Seaborn'],
