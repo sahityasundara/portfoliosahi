@@ -58,7 +58,7 @@ const App: React.FC = () => {
       <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-white to-slate-100 -z-10"></div>
       <Header />
       <NavTrail activeSection={activeSection} onNavigate={handleNavigate} />
-      <main className="container mx-auto px-6 md:px-12">
+      <main className="w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-12 lg:px-16">
         <section id="home"><Hero /></section>
         <section id="about"><About /></section>
         <section id="projects"><Projects /></section>

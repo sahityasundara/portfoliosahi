@@ -9,7 +9,7 @@ interface NavTrailProps {
 
 const NavTrail: React.FC<NavTrailProps> = ({ activeSection, onNavigate }) => {
   return (
-    <div className="fixed right-0 top-1/2 -translate-y-1/2 h-full flex items-center z-40 mr-2 md:mr-5 pointer-events-none">
+    <div className="hidden lg:fixed lg:right-0 lg:top-1/2 lg:-translate-y-1/2 lg:h-full lg:flex lg:items-center lg:z-40 lg:mr-5 lg:pointer-events-none">
       <div className="flex flex-col items-center justify-center gap-4">
         {NAV_LINKS.map(link => (
           <div key={link.name} className="relative group flex items-center pointer-events-auto">

@@ -12,14 +12,14 @@ const ExternalLinkIcon = () => (
 
 const Projects: React.FC = () => {
   return (
-    <div className="relative py-24">
-      <div className="text-center mb-16">
-        <h2 className="text-4xl font-extrabold text-slate-900 sm:text-5xl">My Projects</h2>
-        <p className="mt-4 text-lg text-slate-500">A selection of my recent work.</p>
+    <div className="relative py-16 sm:py-20 md:py-24">
+      <div className="text-center mb-12 sm:mb-16 px-4">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-slate-900">My Projects</h2>
+        <p className="mt-2 sm:mt-4 text-base sm:text-lg text-slate-500">A selection of my recent work.</p>
       </div>
-      <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8 lg:gap-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 px-4">
         {PROJECTS.map((project, index) => (
-          <div key={index} className="group relative h-80 rounded-lg shadow-lg overflow-hidden transition-all duration-500 hover:shadow-2xl hover:shadow-slate-900/10 hover:-translate-y-2 border border-slate-200 bg-white">
+          <div key={index} className="group relative h-64 sm:h-72 md:h-80 rounded-lg shadow-lg overflow-hidden transition-all duration-500 hover:shadow-2xl hover:shadow-slate-900/10 hover:-translate-y-2 border border-slate-200 bg-white">
             <img src={project.image} alt={project.title} className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110" />
             <div className="absolute inset-0 bg-white/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-center items-center text-center p-6">
               <h3 className="text-2xl font-bold text-slate-900 mb-2">{project.title}</h3>

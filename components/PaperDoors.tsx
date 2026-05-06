@@ -89,19 +89,19 @@ const PaperDoors: React.FC<PaperDoorsProps> = ({ onEnter }) => {
           <>
             <Particles />
             {showWelcome && (
-              <div className="opacity-0 animate-fade-in-up [animation-fill-mode:forwards]">
-                <p className="text-4xl md:text-5xl font-bold font-mono tracking-widest uppercase animate-glow text-slate-800">
+              <div className="opacity-0 animate-fade-in-up [animation-fill-mode:forwards] px-4">
+                <p className="text-3xl sm:text-4xl md:text-5xl font-bold font-mono tracking-widest uppercase animate-glow text-slate-800">
                   Welcome
                 </p>
               </div>
             )}
           </>
         ) : (
-          <div className="flex items-center justify-center">
+          <div className="flex flex-col md:flex-row items-center justify-center">
             <TechOrnament reversed />
-            <div className="text-center mx-8">
-                <div className="opacity-0 animate-fade-in-up [animation-delay:400ms] [animation-fill-mode:forwards]">
-                  <p className="mb-4 text-4xl md:text-5xl font-bold font-mono tracking-widest uppercase animate-glow text-slate-800">
+            <div className="text-center mx-6 sm:mx-8">
+                <div className="opacity-0 animate-fade-in-up [animation-delay:400ms] [animation-fill-mode:forwards] px-4">
+                  <p className="mb-4 text-2xl sm:text-3xl md:text-5xl font-bold font-mono tracking-widest uppercase animate-glow text-slate-800">
                     No push or pull, just knock
                   </p>
                 </div>
