@@ -21,25 +21,25 @@ const Projects: React.FC = () => {
         {PROJECTS.map((project, index) => (
           <div key={index} className="group relative h-64 sm:h-72 md:h-80 rounded-lg shadow-lg overflow-hidden transition-all duration-500 hover:shadow-2xl hover:shadow-slate-900/10 hover:-translate-y-2 border border-slate-200 bg-white">
             <img src={project.image} alt={project.title} className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110" />
-            <div className="absolute inset-0 bg-white/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-center items-center text-center p-6">
-              <h3 className="text-2xl font-bold text-slate-900 mb-2">{project.title}</h3>
-              <p className="text-slate-700 mb-4">{project.description}</p>
-              <div className="flex flex-wrap justify-center gap-2 mb-4">
+            <div className="absolute inset-0 bg-white/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-center items-center text-center p-3 sm:p-4 md:p-6 overflow-hidden">
+              <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-slate-900 mb-1 sm:mb-2 line-clamp-2">{project.title}</h3>
+              <p className="text-xs sm:text-sm md:text-base text-slate-700 mb-2 sm:mb-3 md:mb-4 line-clamp-3">{project.description}</p>
+              <div className="flex flex-wrap justify-center gap-1 sm:gap-2 mb-2 sm:mb-3 md:mb-4 w-full">
                 {project.tags.map((tag, i) => (
-                  <span key={i} className="bg-slate-200 text-slate-800 text-sm font-medium px-3 py-1 rounded-full">
+                  <span key={i} className="bg-slate-200 text-slate-800 text-xs sm:text-xs md:text-sm font-medium px-2 sm:px-3 py-0.5 sm:py-1 rounded-full">
                     {tag}
                   </span>
                 ))}
               </div>
-              <div className="flex items-center space-x-4 mt-6">
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3 md:gap-4 mt-2 sm:mt-3 md:mt-6 w-full flex-wrap">
                 {project.liveUrl && project.liveUrl !== '#' && (
-                  <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 text-slate-700 hover:text-slate-900 transition-colors duration-300">
+                  <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-1 sm:gap-2 text-slate-700 hover:text-slate-900 transition-colors duration-300 text-xs sm:text-sm md:text-base whitespace-nowrap">
                     <ExternalLinkIcon />
                     <span>Live Demo</span>
                   </a>
                 )}
                 {project.githubUrl && project.githubUrl !== '#' && (
-                  <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 text-slate-700 hover:text-slate-900 transition-colors duration-300">
+                  <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-1 sm:gap-2 text-slate-700 hover:text-slate-900 transition-colors duration-300 text-xs sm:text-sm md:text-base whitespace-nowrap">
                     <GithubIcon />
                     <span>GitHub</span>
                   </a>
